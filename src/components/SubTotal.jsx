@@ -1,4 +1,4 @@
-import CurrencyFormat from 'react-currency-format';
+// import CurrencyFormat from 'react-currency-format';
 import { useStateValue } from '../StateProvider';
 import { getCartTotal } from '../reducer';
 
@@ -9,7 +9,7 @@ const SubTotal = () => {
   
   return(
     <div className='subtotal'>
-      <CurrencyFormat
+{/*       <CurrencyFormat
         renderText={(value) => (
           <>
             <p>
@@ -27,7 +27,7 @@ const SubTotal = () => {
         prefix={'$'}
         />
 
-        <button>Proceed to Checkout</button>
+        <button>Proceed to Checkout</button> */}
     </div>
   )
 };
