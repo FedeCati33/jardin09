@@ -1,0 +1,24 @@
+.category-card-container {
+  align-items: center;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  max-height: 400px;
+  min-width: 100px;
+  padding: 10px;
+  width: 100%;
+  z-index: 1;
+}
+
+.category-card {
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.category-img {
+  width: 100%;
+}

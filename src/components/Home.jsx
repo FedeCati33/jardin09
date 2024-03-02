@@ -7,6 +7,7 @@ import product3 from '../assets/product-3.png';
 
 
 import Product from './Product';
+import CategoryCard from './CategoryCard';
 
 const Home = () => {
 
@@ -21,20 +22,10 @@ const Home = () => {
           />
 
           <div className='home-row'>
-            <Product
-              id='12345' 
-              title='3:1'
-              price={29.99}
-              rating={5}
-              image={productImage}
-            />
-            <Product
-            id='98765'
-            title='producto2'
-            price={19.99}
-            rating={3}
-            image={product2}              
-            />        
+
+            <CategoryCard />
+
+            <CategoryCard />     
           </div>
 
           <div className='home-row'>

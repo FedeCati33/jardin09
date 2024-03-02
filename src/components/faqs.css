@@ -1,0 +1,18 @@
+h1{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.faqs-container{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.faqs-content{
+    width: 50%;
+    background-color: red;
+    border-radius: 10px;
+}
