@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import LogIn from "./components/LogIn";
 import FaqsView from "./components/FaqsView";
+import ProductList from './components/ProductsList'
 
 import { onAuthStateChanged } from "firebase/auth";
 import { useStateValue } from "./StateProvider";
@@ -41,6 +42,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/log-in" element={<LogIn />} />
           <Route path="/FAQS" element={<FaqsView />} />
+          <Route path='/listado' element={<ProductList />}/>
         </Routes>
       </div>
     </Router>

@@ -29,7 +29,7 @@ const Header = () => {
           </div>
         </Link>
 
-        <Link to="">
+        <Link to="/listado">
           <div className="header-option">
             <span className="header-option_lineOne">Catálogo</span>
             <span className="header-option_lineTwo">Compras</span>
